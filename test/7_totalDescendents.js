@@ -30,6 +30,7 @@ describe("Vampire", function() {
       offspring5.addOffspring(offspring6);
       offspring6.addOffspring(offspring7);
       offspring2.addOffspring(offspring8);
+
     });
 
     it("should give the total descendents underneath a specific vampire", () => {
